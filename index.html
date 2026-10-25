@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Md. Arifur Rahman</title>
+    <link rel="shortcut icon" href="./Images/LogoMyPortfolio-01.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- Header Section -->
+    <header id="navbar" class="navbar">
+        <div class="logo">
+            <a href="#home"><img src="./Images/LogoMyPortfolio-02.png" alt="My Personal Portfolio"></a>
+            <h2>Md. Arifur Rahman</h2>
+        </div>
+
+        <!-- Hamburger Menu Button (Mobile) -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            &#9776;
+        </button>
+
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education" style="pointer-events: none; color:gray">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects" style="pointer-events: none; color:gray">Projects</a></li>
+                <li><a href="#gallery" style="pointer-events: none; color:gray">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+
+            <!-- Top Row: Left = Name, Role, Value Statement | Right = Picture -->
+            <div class="hero-main">
+                <div class="hero-text">
+                    <h1>Hi, I am <br> MD. ARIFUR RAHMAN</h1>
+                    <p class="designation">Full Stack Developer</p>
+                    <!-- Update this one-line value statement to your own words -->
+                    <p class="value-statement">Turning ideas into clean, responsive, and user-friendly web experiences. Building, Breaking & Improving Every Day.</p>
+                </div>
+                <div class="hero-picture">
+                    <!-- Profile Picture -->
+                    <img src="./Images/Arifur_Rahman_Portfolio_Picture.jpg" alt="My Profile Picture" class="profile-img">
+                </div>
+            </div>
+
+            <!-- Bottom Row: Social Links + CV Download + Contact Me -->
+            <div class="hero-actions">
+                <!-- Social Links -->
+                <div class="social-links-hero">
+                    <a href="https://github.com/arifurroni" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/arifurroni/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://www.facebook.com/arifurroni" target="_blank" rel="noopener noreferrer">Facebook</a>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="./assets/CV_Md_Arifur_Rahman.docx" download class="btn-primary">Download CV</a>
+                    <button class="btn-outline" onclick="window.location.href='#contact'">Contact Me</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+
+        <p>I am an enthusiastic and hard-working web developer. I am currently embarking on a journey of full-stack web development and learning new technologies every day.</p>
+
+        <p>I am currently learning HTML, CSS, JavaScript, and React to become proficient in front-end design, while also mastering Node.js and MongoDB for the back-end.</p>
+
+        <p>My future goal is to become a skilled Full Stack Developer and solving complex, practical problems besides contribute to a large organization.</p>
+
+        <!-- Update the sentence below to match your real hobbies / interests -->
+        <p>Outside of coding, I enjoy exploring the latest technology trends, watching programming tutorials, and continuously challenging myself to build better projects.</p>
+    </section>
+
+
+
+    <!-- Skills Section (Categorized) -->
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-categories">
+
+            <!-- Frontend -->
+            <div class="skill-category">
+                <h3>Frontend Development</h3>
+                <div class="skills-container">
+                    <div class="skill-box">
+                        <span>HTML</span>
+                        <div class="progress-bar"><span style="width: 95%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <span>CSS</span>
+                        <div class="progress-bar"><span style="width: 90%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <span>JavaScript</span>
+                        <div class="progress-bar"><span style="width: 85%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <span>React.js</span>
+                        <div class="progress-bar"><span style="width: 80%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <span>TypeScript</span>
+                        <div class="progress-bar"><span style="width: 75%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <span>Next.js</span>
+                        <div class="progress-bar"><span style="width: 70%;"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="skill-category">
+                <h3>Backend Development</h3>
+                <div class="skills-container">
+                    <div class="skill-box">
+                        <span>Node.js</span>
+                        <div class="progress-bar"><span style="width: 80%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <span>Express.js</span>
+                        <div class="progress-bar"><span style="width: 75%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <span>MongoDB</span>
+                        <div class="progress-bar"><span style="width: 80%;"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="skill-category">
+                <h3>Tools &amp; Others</h3>
+                <div class="skills-container">
+                    <div class="skill-box">
+                        <span>Git &amp; GitHub</span>
+                        <div class="progress-bar"><span style="width: 75%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <span>VS Code</span>
+                        <div class="progress-bar"><span style="width: 90%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <span>Netlify / Vercel</span>
+                        <div class="progress-bar"><span style="width: 70%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <span>Postman</span>
+                        <div class="progress-bar"><span style="width: 75%;"></span></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Education Section -->
+<!--    <section id="education" class="education-section">
+        <h2>My Education</h2>
+        <div class="education-container">
+            <article class="education-card">
+                <h3>Web Development (Full Stack)</h3>
+                <p class="institution">Programming Hero &mdash; Batch 14</p>
+                <p class="year">2026 &mdash; Present</p>
+                <p class="description">Currently learning full-stack web development covering HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB through hands-on projects and assignments.</p>
+            </article>
+-->
+            <!-- Replace the placeholders below with your actual education details -->
+<!--             <article class="education-card">
+                <h3>Bachelor of Arts</h3>
+                <p class="institution">Govt. B.L. College, Khulna.</p>
+                <p class="year">2003</p> -->
+                <!-- <p class="description">[Group / Stream &mdash; e.g., Science]</p> -->
+<!--            </article> -->
+
+            <!-- <article class="education-card">
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <p class="institution">[Your College Name]</p>
+                <p class="year">[Passing Year]</p>
+                <p class="description">[Group / Stream &mdash; e.g., Science]</p>
+            </article>
+
+            <article class="education-card">
+                <h3>Secondary School Certificate (SSC)</h3>
+                <p class="institution">[Your School Name]</p>
+                <p class="year">[Passing Year]</p>
+                <p class="description">[Group / Stream &mdash; e.g., Science]</p>
+            </article> -->
+<!--        </div>
+    </section>
+-->
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <h2>My Experience</h2>
+        <div class="experience-container">
+
+            <div class="experience-item">
+                <h3>Self-Taught Web Developer</h3>
+                <p class="company">Personal &amp; Academic Projects</p>
+                <p class="duration">2025 &mdash; Present</p>
+                <p>Building responsive websites and web applications using HTML, CSS, JavaScript, and the Full stack. Completed multiple projects including an e-commerce landing page, a to-do app, and a weather application.</p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Full Stack Student</h3>
+                <p class="company">Programming Hero &mdash; Batch 14</p>
+                <p class="duration">2026 &mdash; Present</p>
+                <p>Currently enrolled in an intensive full-stack web development program, working on weekly assignments, hands-on projects, and collaborative challenges to sharpen practical development skills.</p>
+            </div>
+
+            <!-- Add more experience items here if needed -->
+        </div>
+    </section>
+
+
+
+    <!-- Projects Section -->
+<!--    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+-->
+            <!-- Project Card 1 -->
+<!--            <article class="project-card">
+                <img src="Images/Image_Ecommerce.jpg" alt="E-Commerce Landing Page">
+                <h3>E-Commerce Landing Page</h3>
+                <p>This is a responsive e-commerce landing page built with HTML and CSS.</p>
+                <a href="./project-ecommerce.html" class="btn">View More / Details</a>
+            </article>
+-->
+            <!-- Project Card 2 -->
+<!--            <article class="project-card">
+                <img src="Images/Image_ToDo.jpg" alt="Todo App">
+                <h3>Todo App</h3>
+                <p>A dynamic to-do app built using JavaScript, which helps track daily tasks.</p>
+                <a href="./project-todo.html" class="btn">View More / Details</a>
+            </article>
+-->
+            <!-- Project Card 3 -->
+<!--            <article class="project-card">
+                <img src="Images/Image_WeatherApp.jpg" alt="Weather Application">
+                <h3>Weather Application</h3>
+                <p>A real-time weather app that shows weather information for any city using API.</p>
+                <a href="./project-weather.html" class="btn">View More / Details</a>
+            </article>
+        </div>
+    </section>
+-->
+
+
+    <!-- Gallery Section -->
+<!--    <section id="gallery" class="gallery-section">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="Images/Image01.jpg" alt="Gallery-Image-01">
+            <img src="Images/Image02.jpg" alt="Gallery-Image-02">
+            <img src="Images/Image03.jpg" alt="Gallery-Image-03">
+            <img src="Images/Image04.jpg" alt="Gallery-Image-04">
+            <img src="Images/Image05.jpg" alt="Gallery-Image-05">
+            <img src="Images/Image06.jpg" alt="Gallery-Image-06">
+            <img src="Images/Image07.jpg" alt="Gallery-Image-07">
+            <img src="Images/Image08.jpg" alt="Gallery-Image-08">
+            <img src="Images/Image09.jpg" alt="Gallery-Image-09">
+            <img src="Images/Image10.jpg" alt="Gallery-Image-10">
+        </div>
+    </section>
+-->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me for any queries or opportunities.</p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:arifurroni@gmail.com">arifurroni@gmail.com</a></p>
+            <p>Phone: <a href="tel:+8801711158814">+88 01711158814</a></p>
+            <p>WhatsApp: <a href="https://wa.me/8801711158814" target="_blank" rel="noopener noreferrer">+88 01711158814</a></p>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 MD. ARIFUR RAHMAN. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/arifurroni" target="_blank" rel="noopener noreferrer">Facebook</a> |
+            <a href="https://github.com/arifurroni" target="_blank" rel="noopener noreferrer">GitHub</a> |
+            <a href="https://www.linkedin.com/in/arifurroni/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+    </footer>
+
+
+    <!-- [Preserved] Original commented-out scroll-hide navbar script (kept for future use) -->
+    <!-- <script>
+      const navbar = document.getElementById("navbar");
+
+      let lastScrollY = window.scrollY;
+
+      window.addEventListener("scroll", () => {
+        const currentScrollY = window.scrollY;
+
+        if (currentScrollY > lastScrollY && currentScrollY > 70) {
+          // Scrolling down
+          navbar.classList.add("hide");
+        } else {
+          // Scrolling up
+          navbar.classList.remove("hide");
+        }
+
+        lastScrollY = currentScrollY;
+      });
+    </script> -->
+
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const navMenu = document.getElementById("nav-menu");
+
+        menuToggle.addEventListener("click", () => {
+            const isOpen = navMenu.classList.toggle("active");
+            menuToggle.setAttribute("aria-expanded", isOpen);
+            menuToggle.innerHTML = isOpen ? "&#10005;" : "&#9776;";
+        });
+
+        // Close the mobile menu when any nav link is clicked
+        document.querySelectorAll("#nav-menu a").forEach(link => {
+            link.addEventListener("click", () => {
+                navMenu.classList.toggle("active", false);
+                menuToggle.setAttribute("aria-expanded", "false");
+                menuToggle.innerHTML = "&#9776;";
+            });
+        });
+    </script>
+
+</body>
+
+</html>
