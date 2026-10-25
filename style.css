@@ -245,19 +245,19 @@ header nav ul li a:hover {
 .about-section {
     padding: 80px 15%;
     text-align: center;
-    background-color: rgb(240, 255, 254);
+    background-color: rgb(34, 48, 47);
 }
 
 .about-section h2 {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #2c3e50;
+    color: #a8d2fd;
 }
 
 .about-section p {
     font-size: 18px;
     margin-bottom: 15px;
-    color: #555;
+    color: #ffffff;
 }
 
 
@@ -265,14 +265,14 @@ header nav ul li a:hover {
 /* 4) Skills Section */
 .skills-section {
     padding: 80px 10%;
-    background-color: #eef2f3;
+    background-color: #394649;
     text-align: center;
 }
 
 .skills-section h2 {
     font-size: 32px;
     margin-bottom: 40px;
-    color: #2c3e50;
+    color: #a8d2fd;
 }
 
 .skills-categories {
@@ -284,7 +284,7 @@ header nav ul li a:hover {
 
 .skill-category h3 {
     font-size: 20px;
-    color: #2c3e50;
+    color: #f0f2f4;
     margin-bottom: 15px;
     padding-bottom: 8px;
     border-bottom: 2px solid #3498db;
@@ -297,7 +297,7 @@ header nav ul li a:hover {
 }
 
 .skill-box {
-    background: white;
+    background: rgb(197, 196, 196);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
@@ -347,13 +347,13 @@ header nav ul li a:hover {
 .education-section {
     padding: 80px 10%;
     text-align: center;
-    background-color: white;
+    background-color: rgb(81, 80, 80);
 }
 
 .education-section h2 {
     font-size: 32px;
     margin-bottom: 40px;
-    color: #2c3e50;
+    color: #a8d2fd;
 }
 
 .education-container {
@@ -404,14 +404,14 @@ header nav ul li a:hover {
 /* 6) Experience Section */
 .experience-section {
     padding: 80px 10%;
-    background-color: #eef2f3;
+    background-color: #263340;
     text-align: center;
 }
 
 .experience-section h2 {
     font-size: 32px;
     margin-bottom: 40px;
-    color: #2c3e50;
+    color: #a8d2fd;
 }
 
 .experience-container {
@@ -443,7 +443,7 @@ header nav ul li a:hover {
 }
 
 .experience-item h3 {
-    color: #2c3e50;
+    color: #f4f6f8;
     margin-bottom: 5px;
     font-size: 20px;
 }
@@ -455,13 +455,13 @@ header nav ul li a:hover {
 }
 
 .experience-item .duration {
-    color: #777;
+    color: #e5e4e4;
     font-size: 14px;
     margin-bottom: 10px;
 }
 
 .experience-item p:last-child {
-    color: #555;
+    color: #fafafa;
     font-size: 15px;
 }
 
@@ -471,13 +471,13 @@ header nav ul li a:hover {
 .projects-section {
     padding: 80px 10%;
     text-align: center;
-    background-color: white;
+    background-color: rgb(66, 66, 66);
 }
 
 .projects-section h2 {
     font-size: 32px;
     margin-bottom: 40px;
-    color: #2c3e50;
+    color: #a8d2fd;
 }
 
 .projects-container {
@@ -543,13 +543,13 @@ header nav ul li a:hover {
 .gallery-section {
     padding: 80px 10%;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #464545;
 }
 
 .gallery-section h2 {
     font-size: 32px;
     margin-bottom: 30px;
-    color: #2c3e50;
+    color: #a8d2fd;
 }
 
 .gallery {
@@ -578,24 +578,25 @@ header nav ul li a:hover {
 .contact-section {
     padding: 80px 20px;
     text-align: center;
-    background-color: rgb(240, 255, 254);
+    background-color: rgb(33, 39, 70);
 }
 
 .contact-section h2 {
     font-size: 32px;
     margin-bottom: 10px;
-    color: #2c3e50;
+    color: #a8d2fd;
 }
 
 .contact-section > p {
     font-size: 18px;
-    color: #555;
+    color: #f1f1f1;
     margin-bottom: 25px;
 }
 
 .contact-info p {
     font-size: 18px;
     margin-bottom: 12px;
+    color: #f1f1f1
 }
 
 .contact-info a {
