@@ -108,9 +108,9 @@ opening `index.html` in a browser and visually checking the result.
   delete it without asking — it is intentionally disabled but kept for future
   use.
 - **Mobile menu script**: a small vanilla-JS snippet at the bottom of
-  `index.html` toggles `#nav-menu.active` from the `#menu-toggle` button. Keep
-  it in sync with `.menu-toggle` / `header nav ul.active` styles in
-  `style.css`.
+  `index.html` toggles `.active` on `<nav id="nav-menu">`. The dropdown rule is
+  `header nav.active ul` inside the 768px media query — keep the JS toggle
+  target and that selector in sync with `.menu-toggle` styles in `style.css`.
 - **Personal details are placeholders**: the Education cards contain
   `[Your College Name]` / `[Your School Name]` / `[Passing Year]` markers, and
   the About section's last paragraph (hobbies) is marked with a comment. Update
